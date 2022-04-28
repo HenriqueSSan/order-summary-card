@@ -63,7 +63,7 @@ img {
 .root__details__mobile-img,.root__details__desktop-img  {
     display: block;
     width: 100%;
-    animation: relax 2.5s .5s infinite;
+    animation: relax 5.5s .5s infinite;
 }
 .root__details__desktop-img{
     display: none;
@@ -90,8 +90,7 @@ img {
     background-color: white;
     border-radius: 30px;
     height: auto;
-    box-shadow: 3px 4px 12px black;
-    animation: floatcard 4.5s .5s infinite;
+    box-shadow: 2px 2px 12px 12px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -225,20 +224,6 @@ img {
     100%{
         opacity: 1;
         transform: translateX(0);
-    }
-}
-
-@keyframes floatcard {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-30px);
-    }
-
-    100% {
-        transform: translateY(0);
     }
 }
 
